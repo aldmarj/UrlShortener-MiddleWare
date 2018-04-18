@@ -1,0 +1,18 @@
+{
+    "name": "aldma/shortly-api",
+    "authors": [
+        {
+            "name": "Aldmar",
+            "email": "aldmar.joubert@students.plymouth.ac.uk"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Shortly\\": "app/Shortly"
+        }
+    },
+    "require": {
+        "slim/slim": "3.0",
+        "illuminate/database": "^5.6"
+    }
+}
